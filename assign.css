@@ -164,22 +164,24 @@
     margin-top: 40px;
 
 }
-.hide{
-    box-shadow: 0 0 5px 5px rgb(184, 194, 212);
-    height: 150px;
-    width: 320px;
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 10px;
+
+
+div:hover > .rect{
     display: none;
-    
-    
 }
-.hide .btn{
-    width: 120px;
+div:hover > .hoverdis{
+   display: block;
+}
+.hoverdis{
+    display: none;
+}
+.hoverdis .btn2{
     margin-top: 40px;
-    margin-left: 180px;
+    margin-left: 200px;
 }
+
+
+
 
 .subrect_p1{
     font-size: 20px;
